@@ -35,17 +35,26 @@ h1 {
 
 }
 
-#narwhal-body {
-  animation: move 2s linear forwards;
-  stroke-dasharray:
-  stroke-dashoffset:
+@keyframes eye {
+  0% {
+    opacity: 0;
+ }
+   100% {
+   opacity: 1;
+ }
 
 }
 
-#narwhal-eye {
+#narwhal-body {
   animation: move 2s linear forwards;
-  stroke-dasharray:
-  stroke-dashoffset:
+  stroke-dasharray: 1900px;
+  stroke-dashoffset: 1900px;
+}
+
+#narwhal-eye {
+  animation: eye 1s ease;
+  stroke-dasharray: 72px;
+  stroke-dashoffset: 72px;
 
 }
 

@@ -55,46 +55,54 @@ h1 {
   animation: eye 1s ease;
   stroke-dasharray: 72px;
   stroke-dashoffset: 72px;
+  opacity: 1;
 
 }
 
 #rainbow-violet {
-  animation: move 2s linear forwards;
-  stroke-dasharray:
-  stroke-dashoffset:
+  animation: move 4s linear forwards;
+  stroke-dasharray: 1900px;
+  stroke-dashoffset: 1900px;
 
 }
 
 #rainbow-indigo {
-  animation: move 2s linear forwards;
-  stroke-dasharray:
-  stroke-dashoffset:
+  animation: move 4s linear forwards;
+  stroke-dasharray: 1800px;
+  stroke-dashoffset: 1800px;
 
 }
 
 #rainbow-blue {
-  animation: move 2s linear forwards;
-  stroke-dasharray:
-  stroke-dashoffset:
+  animation: move 4s linear forwards;
+  stroke-dasharray: 1700px;
+  stroke-dashoffset: 1700px;
 
 }
 #rainbow-green {
-  animation: move 2s linear forwards;
-  stroke-dasharray:
-  stroke-dashoffset:
+  animation: move 4s linear forwards;
+  stroke-dasharray: 1600px;
+  stroke-dashoffset: 1600px;
 
 }
 
 #rainbow-yellow {
-  animation: move 2s linear forwards;
-  stroke-dasharray:
-  stroke-dashoffset:
+  animation: move 4s linear forwards;
+  stroke-dasharray: 1500px;
+  stroke-dashoffset: 1500px;
 
 }
 
 #rainbow-orange {
-  animation: move 2s linear forwards;
-  stroke-dasharray:
-  stroke-dashoffset:
+  animation: move 4s linear forwards;
+  stroke-dasharray: 1400px;
+  stroke-dashoffset: 1400px;
+
+}
+
+#rainbow-red {
+  animation: move 4s linear forwards;
+  stroke-dasharray: 1400px;
+  stroke-dashoffset: 1400px;
 
 }

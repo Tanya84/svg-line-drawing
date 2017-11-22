@@ -2,8 +2,6 @@ html {
   font-family: "Unica One", sans-serif;
 }
 
-
-
 h1 {
   animation: bounceIn 3s linear;
   color: #fff;
@@ -14,16 +12,18 @@ h1 {
 }
 
 @keyframes bounceIn {
+
   0% {
-    transform: scale(0.1);
+
+    transform: scale(1);
     opacity: 0;
   }
-  60% {
+
+  100% {
+
     transform: scale(1.2);
     opacity: 1;
-  }
-  100% {
-    transform: scale(1);
+
   }
 }
 
@@ -36,16 +36,21 @@ h1 {
 }
 
 @keyframes eye {
+
   0% {
+
     opacity: 0;
- }
-   100% {
-   opacity: 1;
- }
+  }
+
+  100% {
+
+    opacity: 1;
+  }
 
 }
 
 #narwhal-body {
+
   animation: move 2s linear forwards;
   stroke-dasharray: 1900px;
   stroke-dashoffset: 1900px;
@@ -74,12 +79,15 @@ h1 {
 }
 
 #rainbow-blue {
+
   animation: move 4s linear forwards;
   stroke-dasharray: 1700px;
   stroke-dashoffset: 1700px;
 
 }
+
 #rainbow-green {
+
   animation: move 4s linear forwards;
   stroke-dasharray: 1600px;
   stroke-dashoffset: 1600px;
@@ -87,6 +95,7 @@ h1 {
 }
 
 #rainbow-yellow {
+
   animation: move 4s linear forwards;
   stroke-dasharray: 1500px;
   stroke-dashoffset: 1500px;
@@ -94,6 +103,7 @@ h1 {
 }
 
 #rainbow-orange {
+
   animation: move 4s linear forwards;
   stroke-dasharray: 1400px;
   stroke-dashoffset: 1400px;
@@ -101,6 +111,7 @@ h1 {
 }
 
 #rainbow-red {
+
   animation: move 4s linear forwards;
   stroke-dasharray: 1400px;
   stroke-dashoffset: 1400px;
